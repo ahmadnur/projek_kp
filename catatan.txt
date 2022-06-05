@@ -8,3 +8,6 @@ Bahasa Pemrograman	:HTML
 Ekstensi		:JQuery	
 			 PHPSPREADSHEET(Buat Excel)
 			 HIHGCHARTS (Buat Grafik)
+
+ketika mengedit untuk mengaktifkan tailwind css :
+ketik "npm run dev" pada terminal
