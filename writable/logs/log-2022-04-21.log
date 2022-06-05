@@ -1,0 +1,166 @@
+ERROR - 2022-04-21 08:13:03 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2022-04-21 08:13:03 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 C:\xampp\htdocs\projek\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\projek\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\projek\app\Models\Rule_cutiModel.php(20): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\projek\app\Controllers\Absensi.php(18): App\Models\Rule_cutiModel->getAll()
+#4 C:\xampp\htdocs\projek\system\CodeIgniter.php(832): App\Controllers\Absensi->harian()
+#5 C:\xampp\htdocs\projek\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absensi))
+#6 C:\xampp\htdocs\projek\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\projek\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\projek\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-04-21 08:13:26 --> Call to a member function findAll() on null
+#0 C:\xampp\htdocs\projek\system\CodeIgniter.php(832): App\Controllers\Absensi->harian()
+#1 C:\xampp\htdocs\projek\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absensi))
+#2 C:\xampp\htdocs\projek\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\projek\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\projek\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-04-21 09:10:26 --> Undefined array key 2
+#0 C:\xampp\htdocs\projek\app\Controllers\Save.php(360): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 360)
+#1 C:\xampp\htdocs\projek\system\CodeIgniter.php(832): App\Controllers\Save->upload()
+#2 C:\xampp\htdocs\projek\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Save))
+#3 C:\xampp\htdocs\projek\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\projek\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\projek\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-04-21 10:59:14 --> Undefined array key "deoartment"
+#0 C:\xampp\htdocs\projek\app\Controllers\Home.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 64)
+#1 C:\xampp\htdocs\projek\system\CodeIgniter.php(832): App\Controllers\Home->save()
+#2 C:\xampp\htdocs\projek\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\projek\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\projek\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\projek\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-04-21 10:59:33 --> Class "App\Controllers\Xlsx" not found
+#0 C:\xampp\htdocs\projek\system\CodeIgniter.php(832): App\Controllers\Home->save()
+#1 C:\xampp\htdocs\projek\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\projek\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\projek\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\projek\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-04-21 13:12:35 --> filesize(): stat failed for das.xlsx
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'filesize(): sta...', 'C:\\xampp\\htdocs...', 74)
+#1 C:\xampp\htdocs\projek\app\Controllers\Home.php(74): filesize('das.xlsx')
+#2 C:\xampp\htdocs\projek\system\CodeIgniter.php(832): App\Controllers\Home->save()
+#3 C:\xampp\htdocs\projek\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\projek\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\projek\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\projek\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+ERROR - 2022-04-21 13:57:25 --> Column 'id_loggin' cannot be null
+CRITICAL - 2022-04-21 13:57:25 --> Column 'id_loggin' cannot be null
+#0 C:\xampp\htdocs\projek\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `up...', 0)
+#1 C:\xampp\htdocs\projek\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `up...')
+#2 C:\xampp\htdocs\projek\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `up...')
+#3 C:\xampp\htdocs\projek\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `up...', Array, false)
+#4 C:\xampp\htdocs\projek\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\projek\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\projek\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\projek\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\projek\app\Controllers\Save.php(378): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\projek\system\CodeIgniter.php(832): App\Controllers\Save->upload()
+#10 C:\xampp\htdocs\projek\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Save))
+#11 C:\xampp\htdocs\projek\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\projek\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\projek\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+ERROR - 2022-04-21 14:04:05 --> Column 'id_loggin' cannot be null
+CRITICAL - 2022-04-21 14:04:05 --> Column 'id_loggin' cannot be null
+#0 C:\xampp\htdocs\projek\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `up...', 0)
+#1 C:\xampp\htdocs\projek\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `up...')
+#2 C:\xampp\htdocs\projek\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `up...')
+#3 C:\xampp\htdocs\projek\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `up...', Array, false)
+#4 C:\xampp\htdocs\projek\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\projek\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\projek\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\projek\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\projek\app\Controllers\Save.php(378): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\projek\system\CodeIgniter.php(832): App\Controllers\Save->upload()
+#10 C:\xampp\htdocs\projek\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Save))
+#11 C:\xampp\htdocs\projek\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\projek\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\projek\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2022-04-21 14:07:50 --> Undefined array key "id_loggin"
+#0 C:\xampp\htdocs\projek\app\Views\absensi\upload.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\projek\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\projek\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\projek\system\Common.php(1089): CodeIgniter\View\View->render('absensi/upload....', Array, true)
+#4 C:\xampp\htdocs\projek\app\Controllers\Absensi.php(43): view('absensi/upload....', Array)
+#5 C:\xampp\htdocs\projek\system\CodeIgniter.php(832): App\Controllers\Absensi->upload()
+#6 C:\xampp\htdocs\projek\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absensi))
+#7 C:\xampp\htdocs\projek\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\projek\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\projek\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2022-04-21 14:17:05 --> Column 'nama_file' cannot be null
+CRITICAL - 2022-04-21 14:17:05 --> Column 'nama_file' cannot be null
+#0 C:\xampp\htdocs\projek\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `up...', 0)
+#1 C:\xampp\htdocs\projek\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `up...')
+#2 C:\xampp\htdocs\projek\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `up...')
+#3 C:\xampp\htdocs\projek\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `up...', Array, false)
+#4 C:\xampp\htdocs\projek\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\projek\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\projek\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\projek\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\projek\app\Controllers\Save.php(379): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\projek\system\CodeIgniter.php(832): App\Controllers\Save->upload()
+#10 C:\xampp\htdocs\projek\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Save))
+#11 C:\xampp\htdocs\projek\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\projek\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\projek\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+ERROR - 2022-04-21 14:46:29 --> Column 'jabatan' cannot be null
+CRITICAL - 2022-04-21 14:46:29 --> Column 'jabatan' cannot be null
+#0 C:\xampp\htdocs\projek\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ja...', 0)
+#1 C:\xampp\htdocs\projek\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ja...')
+#2 C:\xampp\htdocs\projek\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ja...')
+#3 C:\xampp\htdocs\projek\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ja...', Array, false)
+#4 C:\xampp\htdocs\projek\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\projek\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\projek\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\projek\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\projek\app\Controllers\Save.php(338): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\projek\system\CodeIgniter.php(832): App\Controllers\Save->editjabatan()
+#10 C:\xampp\htdocs\projek\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Save))
+#11 C:\xampp\htdocs\projek\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\projek\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\projek\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+ERROR - 2022-04-21 14:47:10 --> Column 'indek' cannot be null
+CRITICAL - 2022-04-21 14:47:10 --> Column 'indek' cannot be null
+#0 C:\xampp\htdocs\projek\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ja...', 0)
+#1 C:\xampp\htdocs\projek\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ja...')
+#2 C:\xampp\htdocs\projek\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ja...')
+#3 C:\xampp\htdocs\projek\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ja...', Array, false)
+#4 C:\xampp\htdocs\projek\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\projek\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\projek\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\projek\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\projek\app\Controllers\Save.php(338): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\projek\system\CodeIgniter.php(832): App\Controllers\Save->editjabatan()
+#10 C:\xampp\htdocs\projek\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Save))
+#11 C:\xampp\htdocs\projek\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\projek\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\projek\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+ERROR - 2022-04-21 14:47:49 --> Column 'indek' cannot be null
+CRITICAL - 2022-04-21 14:47:49 --> Column 'indek' cannot be null
+#0 C:\xampp\htdocs\projek\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ja...', 0)
+#1 C:\xampp\htdocs\projek\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ja...')
+#2 C:\xampp\htdocs\projek\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ja...')
+#3 C:\xampp\htdocs\projek\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ja...', Array, false)
+#4 C:\xampp\htdocs\projek\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\projek\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\projek\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\projek\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\projek\app\Controllers\Save.php(338): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\projek\system\CodeIgniter.php(832): App\Controllers\Save->editjabatan()
+#10 C:\xampp\htdocs\projek\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Save))
+#11 C:\xampp\htdocs\projek\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\projek\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\projek\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#14 {main}

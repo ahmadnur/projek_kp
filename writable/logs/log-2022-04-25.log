@@ -1,0 +1,340 @@
+ERROR - 2022-04-25 08:38:28 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2022-04-25 08:38:28 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 C:\xampp\htdocs\projek\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\projek\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `nama_k`...', Array, false)
+#2 C:\xampp\htdocs\projek\app\Models\CobadongModel.php(17): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\projek\app\Controllers\Home.php(44): App\Models\CobaDongModel->nama()
+#4 C:\xampp\htdocs\projek\system\CodeIgniter.php(832): App\Controllers\Home->performa()
+#5 C:\xampp\htdocs\projek\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\projek\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\projek\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\projek\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-04-25 08:42:17 --> Array to string conversion
+#0 C:\xampp\htdocs\projek\app\Views\performa.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 13)
+#1 C:\xampp\htdocs\projek\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\projek\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\projek\system\Common.php(1089): CodeIgniter\View\View->render('performa.php', Array, true)
+#4 C:\xampp\htdocs\projek\app\Controllers\Home.php(54): view('performa.php', Array)
+#5 C:\xampp\htdocs\projek\system\CodeIgniter.php(832): App\Controllers\Home->performa()
+#6 C:\xampp\htdocs\projek\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\projek\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\projek\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\projek\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-04-25 09:41:26 --> Undefined variable $profile
+#0 C:\xampp\htdocs\projek\app\Controllers\Home.php(100): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 100)
+#1 C:\xampp\htdocs\projek\system\CodeIgniter.php(832): App\Controllers\Home->profil('value.nama_k')
+#2 C:\xampp\htdocs\projek\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\projek\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\projek\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\projek\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-04-25 09:42:26 --> Undefined variable $profile
+#0 C:\xampp\htdocs\projek\app\Controllers\Home.php(100): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 100)
+#1 C:\xampp\htdocs\projek\system\CodeIgniter.php(832): App\Controllers\Home->profil('Lucile Gibson V')
+#2 C:\xampp\htdocs\projek\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\projek\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\projek\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\projek\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-04-25 10:03:33 --> Undefined variable $karyawan
+#0 C:\xampp\htdocs\projek\app\Controllers\Home.php(118): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 118)
+#1 C:\xampp\htdocs\projek\system\CodeIgniter.php(832): App\Controllers\Home->karyawan_prof('dist', 'images', 'profile-3.jpg')
+#2 C:\xampp\htdocs\projek\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\projek\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\projek\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\projek\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-04-25 10:32:23 --> Undefined variable $profile
+#0 C:\xampp\htdocs\projek\app\Controllers\Home.php(100): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 100)
+#1 C:\xampp\htdocs\projek\system\CodeIgniter.php(832): App\Controllers\Home->profil('0')
+#2 C:\xampp\htdocs\projek\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\projek\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\projek\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\projek\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-04-25 10:35:29 --> Undefined variable $karyawan
+#0 C:\xampp\htdocs\projek\app\Controllers\Home.php(118): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 118)
+#1 C:\xampp\htdocs\projek\system\CodeIgniter.php(832): App\Controllers\Home->karyawan_prof('dist', 'images', 'profile-3.jpg')
+#2 C:\xampp\htdocs\projek\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\projek\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\projek\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\projek\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-04-25 10:35:30 --> Undefined variable $karyawan
+#0 C:\xampp\htdocs\projek\app\Controllers\Home.php(118): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 118)
+#1 C:\xampp\htdocs\projek\system\CodeIgniter.php(832): App\Controllers\Home->karyawan_prof('dist', 'images', 'profile-3.jpg')
+#2 C:\xampp\htdocs\projek\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\projek\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\projek\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\projek\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-04-25 10:42:26 --> Undefined variable $karyawan
+#0 C:\xampp\htdocs\projek\app\Controllers\Home.php(118): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 118)
+#1 C:\xampp\htdocs\projek\system\CodeIgniter.php(832): App\Controllers\Home->karyawan_prof('dist', 'images', 'profile-3.jpg')
+#2 C:\xampp\htdocs\projek\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\projek\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\projek\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\projek\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-04-25 10:42:27 --> Undefined variable $karyawan
+#0 C:\xampp\htdocs\projek\app\Controllers\Home.php(118): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 118)
+#1 C:\xampp\htdocs\projek\system\CodeIgniter.php(832): App\Controllers\Home->karyawan_prof('dist', 'images', 'profile-3.jpg')
+#2 C:\xampp\htdocs\projek\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\projek\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\projek\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\projek\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-04-25 10:50:10 --> Undefined variable $karyawan
+#0 C:\xampp\htdocs\projek\app\Controllers\Home.php(118): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 118)
+#1 C:\xampp\htdocs\projek\system\CodeIgniter.php(832): App\Controllers\Home->karyawan_prof('33')
+#2 C:\xampp\htdocs\projek\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\projek\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\projek\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\projek\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-04-25 10:51:45 --> Undefined variable $karyawan
+#0 C:\xampp\htdocs\projek\app\Controllers\Home.php(118): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 118)
+#1 C:\xampp\htdocs\projek\system\CodeIgniter.php(832): App\Controllers\Home->karyawan_prof('dist', 'images', 'profile-3.jpg')
+#2 C:\xampp\htdocs\projek\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\projek\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\projek\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\projek\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-04-25 10:52:18 --> Undefined array key "nama_k"
+#0 C:\xampp\htdocs\projek\app\Views\profil.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 19)
+#1 C:\xampp\htdocs\projek\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\projek\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\projek\system\Common.php(1089): CodeIgniter\View\View->render('profil.php', Array, true)
+#4 C:\xampp\htdocs\projek\app\Controllers\Home.php(120): view('profil.php', Array)
+#5 C:\xampp\htdocs\projek\system\CodeIgniter.php(832): App\Controllers\Home->karyawan_prof('33')
+#6 C:\xampp\htdocs\projek\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\projek\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\projek\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\projek\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-04-25 10:53:48 --> Undefined variable $karyawan
+#0 C:\xampp\htdocs\projek\app\Controllers\Home.php(118): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 118)
+#1 C:\xampp\htdocs\projek\system\CodeIgniter.php(832): App\Controllers\Home->karyawan_prof('dist', 'images', 'profile-3.jpg')
+#2 C:\xampp\htdocs\projek\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\projek\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\projek\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\projek\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-04-25 11:10:40 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\projek\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\projek\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\projek\system\Common.php(1089): CodeIgniter\View\View->render('profil.php', Array, true)
+#3 C:\xampp\htdocs\projek\app\Controllers\Home.php(121): view('profil.php', Array)
+#4 C:\xampp\htdocs\projek\system\CodeIgniter.php(832): App\Controllers\Home->karyawan_prof('44')
+#5 C:\xampp\htdocs\projek\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\projek\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\projek\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\projek\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-04-25 11:12:09 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\projek\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\projek\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\projek\system\Common.php(1089): CodeIgniter\View\View->render('profil.php', Array, true)
+#3 C:\xampp\htdocs\projek\app\Controllers\Home.php(121): view('profil.php', Array)
+#4 C:\xampp\htdocs\projek\system\CodeIgniter.php(832): App\Controllers\Home->karyawan_prof('44')
+#5 C:\xampp\htdocs\projek\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\projek\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\projek\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\projek\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-04-25 11:12:43 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\projek\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\projek\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\projek\system\Common.php(1089): CodeIgniter\View\View->render('profil.php', Array, true)
+#3 C:\xampp\htdocs\projek\app\Controllers\Home.php(122): view('profil.php', Array)
+#4 C:\xampp\htdocs\projek\system\CodeIgniter.php(832): App\Controllers\Home->karyawan_prof('44')
+#5 C:\xampp\htdocs\projek\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\projek\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\projek\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\projek\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-04-25 11:13:06 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\projek\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\projek\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\projek\system\Common.php(1089): CodeIgniter\View\View->render('profil.php', Array, true)
+#3 C:\xampp\htdocs\projek\app\Controllers\Home.php(122): view('profil.php', Array)
+#4 C:\xampp\htdocs\projek\system\CodeIgniter.php(832): App\Controllers\Home->karyawan_prof('11')
+#5 C:\xampp\htdocs\projek\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\projek\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\projek\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\projek\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-04-25 11:14:12 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\projek\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\projek\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\projek\system\Common.php(1089): CodeIgniter\View\View->render('profil.php', Array, true)
+#3 C:\xampp\htdocs\projek\app\Controllers\Home.php(122): view('profil.php', Array)
+#4 C:\xampp\htdocs\projek\system\CodeIgniter.php(832): App\Controllers\Home->karyawan_prof('11')
+#5 C:\xampp\htdocs\projek\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\projek\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\projek\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\projek\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-04-25 11:16:40 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\projek\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\projek\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\projek\system\Common.php(1089): CodeIgniter\View\View->render('profil.php', Array, true)
+#3 C:\xampp\htdocs\projek\app\Controllers\Home.php(124): view('profil.php', Array)
+#4 C:\xampp\htdocs\projek\system\CodeIgniter.php(832): App\Controllers\Home->karyawan_prof('11')
+#5 C:\xampp\htdocs\projek\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\projek\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\projek\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\projek\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-04-25 11:18:42 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\projek\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\projek\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\projek\system\Common.php(1089): CodeIgniter\View\View->render('profil.php', Array, true)
+#3 C:\xampp\htdocs\projek\app\Controllers\Home.php(125): view('profil.php', Array)
+#4 C:\xampp\htdocs\projek\system\CodeIgniter.php(832): App\Controllers\Home->karyawan_prof('16')
+#5 C:\xampp\htdocs\projek\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\projek\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\projek\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\projek\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-04-25 11:42:10 --> Undefined property: CodeIgniter\View\View::$nama_kar
+#0 C:\xampp\htdocs\projek\app\Views\recruitment\databaru.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 12)
+#1 C:\xampp\htdocs\projek\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\projek\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\projek\system\Common.php(1089): CodeIgniter\View\View->render('recruitment/dat...', Array, true)
+#4 C:\xampp\htdocs\projek\app\Controllers\Recruitment.php(65): view('recruitment/dat...', Array)
+#5 C:\xampp\htdocs\projek\system\CodeIgniter.php(832): App\Controllers\Recruitment->databaru()
+#6 C:\xampp\htdocs\projek\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recruitment))
+#7 C:\xampp\htdocs\projek\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\projek\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\projek\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-04-25 11:42:40 --> Undefined variable $nama_kar
+#0 C:\xampp\htdocs\projek\app\Views\recruitment\databaru.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 12)
+#1 C:\xampp\htdocs\projek\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\projek\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\projek\system\Common.php(1089): CodeIgniter\View\View->render('recruitment/dat...', Array, true)
+#4 C:\xampp\htdocs\projek\app\Controllers\Recruitment.php(65): view('recruitment/dat...', Array)
+#5 C:\xampp\htdocs\projek\system\CodeIgniter.php(832): App\Controllers\Recruitment->databaru()
+#6 C:\xampp\htdocs\projek\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recruitment))
+#7 C:\xampp\htdocs\projek\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\projek\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\projek\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-04-25 12:04:40 --> Undefined variable $nama_kar
+#0 C:\xampp\htdocs\projek\app\Views\recruitment\databaru.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 12)
+#1 C:\xampp\htdocs\projek\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\projek\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\projek\system\Common.php(1089): CodeIgniter\View\View->render('recruitment/dat...', Array, true)
+#4 C:\xampp\htdocs\projek\app\Controllers\Recruitment.php(65): view('recruitment/dat...', Array)
+#5 C:\xampp\htdocs\projek\system\CodeIgniter.php(832): App\Controllers\Recruitment->databaru()
+#6 C:\xampp\htdocs\projek\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recruitment))
+#7 C:\xampp\htdocs\projek\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\projek\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\projek\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-04-25 13:33:15 --> Too few arguments to function App\Controllers\Home::profil(), 0 passed in C:\xampp\htdocs\projek\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\projek\system\CodeIgniter.php(832): App\Controllers\Home->profil()
+#1 C:\xampp\htdocs\projek\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\projek\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\projek\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\projek\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-04-25 14:47:32 --> Undefined variable $karyawan
+#0 C:\xampp\htdocs\projek\app\Views\performa.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 16)
+#1 C:\xampp\htdocs\projek\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\projek\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\projek\system\Common.php(1089): CodeIgniter\View\View->render('performa.php', Array, true)
+#4 C:\xampp\htdocs\projek\app\Controllers\Home.php(54): view('performa.php', Array)
+#5 C:\xampp\htdocs\projek\system\CodeIgniter.php(832): App\Controllers\Home->performa()
+#6 C:\xampp\htdocs\projek\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\projek\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\projek\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\projek\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-04-25 14:58:57 --> There is no data to update.
+#0 C:\xampp\htdocs\projek\system\BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\projek\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(0, 'update')
+#2 C:\xampp\htdocs\projek\system\Model.php(651): CodeIgniter\BaseModel->update(Array, 0)
+#3 C:\xampp\htdocs\projek\app\Controllers\Recruitment.php(34): CodeIgniter\Model->update('8', 0)
+#4 C:\xampp\htdocs\projek\system\CodeIgniter.php(832): App\Controllers\Recruitment->lowongan()
+#5 C:\xampp\htdocs\projek\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recruitment))
+#6 C:\xampp\htdocs\projek\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\projek\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\projek\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-04-25 03:02:02 --> syntax error, unexpected token "=", expecting "]"
+#0 C:\xampp\htdocs\projek\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('recruitment/low...')
+#1 C:\xampp\htdocs\projek\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('recruitment/low...')
+#2 C:\xampp\htdocs\projek\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\projek\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\projek\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\projek\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-04-25 15:02:25 --> There is no data to update.
+#0 C:\xampp\htdocs\projek\system\BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\projek\system\Model.php(651): CodeIgniter\BaseModel->update(Array, Array)
+#2 C:\xampp\htdocs\projek\app\Controllers\Recruitment.php(34): CodeIgniter\Model->update(0, Array)
+#3 C:\xampp\htdocs\projek\system\CodeIgniter.php(832): App\Controllers\Recruitment->lowongan()
+#4 C:\xampp\htdocs\projek\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recruitment))
+#5 C:\xampp\htdocs\projek\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\projek\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\projek\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-04-25 15:04:20 --> There is no data to update.
+#0 C:\xampp\htdocs\projek\system\BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\projek\system\Model.php(651): CodeIgniter\BaseModel->update(Array, Array)
+#2 C:\xampp\htdocs\projek\app\Controllers\Recruitment.php(34): CodeIgniter\Model->update(Array, Array)
+#3 C:\xampp\htdocs\projek\system\CodeIgniter.php(832): App\Controllers\Recruitment->lowongan()
+#4 C:\xampp\htdocs\projek\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recruitment))
+#5 C:\xampp\htdocs\projek\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\projek\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\projek\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-04-25 15:04:35 --> There is no data to update.
+#0 C:\xampp\htdocs\projek\system\BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\projek\system\Model.php(651): CodeIgniter\BaseModel->update(Array, Array)
+#2 C:\xampp\htdocs\projek\app\Controllers\Recruitment.php(34): CodeIgniter\Model->update(Array, Array)
+#3 C:\xampp\htdocs\projek\system\CodeIgniter.php(832): App\Controllers\Recruitment->lowongan()
+#4 C:\xampp\htdocs\projek\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recruitment))
+#5 C:\xampp\htdocs\projek\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\projek\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\projek\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-04-25 15:06:53 --> There is no data to update.
+#0 C:\xampp\htdocs\projek\system\BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\projek\system\Model.php(651): CodeIgniter\BaseModel->update(Array, Array)
+#2 C:\xampp\htdocs\projek\app\Controllers\Recruitment.php(34): CodeIgniter\Model->update(Array, Array)
+#3 C:\xampp\htdocs\projek\system\CodeIgniter.php(832): App\Controllers\Recruitment->lowongan()
+#4 C:\xampp\htdocs\projek\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recruitment))
+#5 C:\xampp\htdocs\projek\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\projek\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\projek\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-04-25 16:03:27 --> Undefined property: CodeIgniter\View\View::$posisi
+#0 C:\xampp\htdocs\projek\app\Views\pendaftaran\baru.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 21)
+#1 C:\xampp\htdocs\projek\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\projek\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\projek\system\Common.php(1089): CodeIgniter\View\View->render('pendaftaran/bar...', Array, true)
+#4 C:\xampp\htdocs\projek\app\Controllers\Pendaftaran.php(20): view('pendaftaran/bar...', Array)
+#5 C:\xampp\htdocs\projek\system\CodeIgniter.php(832): App\Controllers\Pendaftaran->baru()
+#6 C:\xampp\htdocs\projek\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendaftaran))
+#7 C:\xampp\htdocs\projek\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\projek\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\projek\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-04-25 16:18:01 --> Undefined property: CodeIgniter\View\View::$posisi
+#0 C:\xampp\htdocs\projek\app\Views\pendaftaran\baru.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 20)
+#1 C:\xampp\htdocs\projek\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\projek\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\projek\system\Common.php(1089): CodeIgniter\View\View->render('pendaftaran/bar...', Array, true)
+#4 C:\xampp\htdocs\projek\app\Controllers\Pendaftaran.php(20): view('pendaftaran/bar...', Array)
+#5 C:\xampp\htdocs\projek\system\CodeIgniter.php(832): App\Controllers\Pendaftaran->baru()
+#6 C:\xampp\htdocs\projek\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendaftaran))
+#7 C:\xampp\htdocs\projek\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\projek\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\projek\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}

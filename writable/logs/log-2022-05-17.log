@@ -1,0 +1,386 @@
+ERROR - 2022-05-17 07:31:15 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2022-05-17 07:31:15 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 C:\xampp\htdocs\projek\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\projek\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\projek\app\Models\KaryawanModel.php(71): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\projek\app\Controllers\Home.php(34): App\Models\KaryawanModel->resign2()
+#4 C:\xampp\htdocs\projek\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\projek\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\projek\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\projek\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\projek\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-05-17 09:02:02 --> Array to string conversion
+#0 C:\xampp\htdocs\projek\app\Views\recruitment\databaru.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 31)
+#1 C:\xampp\htdocs\projek\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\projek\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\projek\system\Common.php(1089): CodeIgniter\View\View->render('recruitment/dat...', Array, true)
+#4 C:\xampp\htdocs\projek\app\Controllers\Recruitment.php(159): view('recruitment/dat...', Array)
+#5 C:\xampp\htdocs\projek\system\CodeIgniter.php(832): App\Controllers\Recruitment->databaru()
+#6 C:\xampp\htdocs\projek\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recruitment))
+#7 C:\xampp\htdocs\projek\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\projek\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\projek\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-05-17 09:02:18 --> Array to string conversion
+#0 C:\xampp\htdocs\projek\app\Views\recruitment\databaru.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 31)
+#1 C:\xampp\htdocs\projek\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\projek\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\projek\system\Common.php(1089): CodeIgniter\View\View->render('recruitment/dat...', Array, true)
+#4 C:\xampp\htdocs\projek\app\Controllers\Recruitment.php(159): view('recruitment/dat...', Array)
+#5 C:\xampp\htdocs\projek\system\CodeIgniter.php(832): App\Controllers\Recruitment->databaru()
+#6 C:\xampp\htdocs\projek\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recruitment))
+#7 C:\xampp\htdocs\projek\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\projek\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\projek\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-05-17 09:02:42 --> Array to string conversion
+#0 C:\xampp\htdocs\projek\app\Views\recruitment\databaru.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 31)
+#1 C:\xampp\htdocs\projek\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\projek\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\projek\system\Common.php(1089): CodeIgniter\View\View->render('recruitment/dat...', Array, true)
+#4 C:\xampp\htdocs\projek\app\Controllers\Recruitment.php(159): view('recruitment/dat...', Array)
+#5 C:\xampp\htdocs\projek\system\CodeIgniter.php(832): App\Controllers\Recruitment->databaru()
+#6 C:\xampp\htdocs\projek\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recruitment))
+#7 C:\xampp\htdocs\projek\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\projek\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\projek\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2022-05-17 09:36:24 --> Unknown column 'status' in 'where clause'
+CRITICAL - 2022-05-17 09:36:24 --> Unknown column 'status' in 'where clause'
+#0 C:\xampp\htdocs\projek\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\projek\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\projek\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\projek\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\projek\app\Models\IjinModel.php(30): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projek\app\Controllers\Laporan.php(76): App\Models\IjinModel->laporan()
+#6 C:\xampp\htdocs\projek\system\CodeIgniter.php(832): App\Controllers\Laporan->cuti()
+#7 C:\xampp\htdocs\projek\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#8 C:\xampp\htdocs\projek\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\projek\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\projek\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-05-17 09:38:14 --> Unknown column 'status_i' in 'where clause'
+CRITICAL - 2022-05-17 09:38:14 --> Unknown column 'status_i' in 'where clause'
+#0 C:\xampp\htdocs\projek\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\projek\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\projek\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\projek\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\projek\app\Models\IjinModel.php(30): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projek\app\Controllers\Laporan.php(76): App\Models\IjinModel->laporan()
+#6 C:\xampp\htdocs\projek\system\CodeIgniter.php(832): App\Controllers\Laporan->cuti()
+#7 C:\xampp\htdocs\projek\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#8 C:\xampp\htdocs\projek\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\projek\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\projek\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-05-17 09:38:59 --> Unknown column 'rule_cuti.id_jenis' in 'on clause'
+CRITICAL - 2022-05-17 09:38:59 --> Unknown column 'rule_cuti.id_jenis' in 'on clause'
+#0 C:\xampp\htdocs\projek\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\projek\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\projek\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\projek\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\projek\app\Models\IjinModel.php(30): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projek\app\Controllers\Laporan.php(76): App\Models\IjinModel->laporan()
+#6 C:\xampp\htdocs\projek\system\CodeIgniter.php(832): App\Controllers\Laporan->cuti()
+#7 C:\xampp\htdocs\projek\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#8 C:\xampp\htdocs\projek\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\projek\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\projek\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-05-17 09:40:08 --> Unknown column 'rule_cuti.id_jenis' in 'on clause'
+CRITICAL - 2022-05-17 09:40:08 --> Unknown column 'rule_cuti.id_jenis' in 'on clause'
+#0 C:\xampp\htdocs\projek\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\projek\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\projek\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\projek\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\projek\app\Models\IjinModel.php(30): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projek\app\Controllers\Laporan.php(76): App\Models\IjinModel->laporan()
+#6 C:\xampp\htdocs\projek\system\CodeIgniter.php(832): App\Controllers\Laporan->cuti()
+#7 C:\xampp\htdocs\projek\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#8 C:\xampp\htdocs\projek\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\projek\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\projek\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2022-05-17 09:49:19 --> Undefined variable $lapor
+#0 C:\xampp\htdocs\projek\app\Controllers\Laporan.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 83)
+#1 C:\xampp\htdocs\projek\system\CodeIgniter.php(832): App\Controllers\Laporan->cuti()
+#2 C:\xampp\htdocs\projek\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#3 C:\xampp\htdocs\projek\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\projek\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\projek\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-17 09:52:52 --> Undefined variable $lapor
+#0 C:\xampp\htdocs\projek\app\Controllers\Laporan.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 83)
+#1 C:\xampp\htdocs\projek\system\CodeIgniter.php(832): App\Controllers\Laporan->cuti()
+#2 C:\xampp\htdocs\projek\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#3 C:\xampp\htdocs\projek\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\projek\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\projek\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-17 09:55:49 --> Undefined variable $lapor
+#0 C:\xampp\htdocs\projek\app\Controllers\Laporan.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 83)
+#1 C:\xampp\htdocs\projek\system\CodeIgniter.php(832): App\Controllers\Laporan->cuti()
+#2 C:\xampp\htdocs\projek\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#3 C:\xampp\htdocs\projek\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\projek\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\projek\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-17 10:00:50 --> Undefined variable $lapor
+#0 C:\xampp\htdocs\projek\app\Controllers\Laporan.php(85): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 85)
+#1 C:\xampp\htdocs\projek\system\CodeIgniter.php(832): App\Controllers\Laporan->cuti()
+#2 C:\xampp\htdocs\projek\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#3 C:\xampp\htdocs\projek\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\projek\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\projek\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-17 10:01:28 --> Undefined variable $lapor
+#0 C:\xampp\htdocs\projek\app\Controllers\Laporan.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 86)
+#1 C:\xampp\htdocs\projek\system\CodeIgniter.php(832): App\Controllers\Laporan->cuti()
+#2 C:\xampp\htdocs\projek\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#3 C:\xampp\htdocs\projek\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\projek\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\projek\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-17 10:03:01 --> Undefined variable $ka
+#0 C:\xampp\htdocs\projek\app\Controllers\Laporan.php(85): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 85)
+#1 C:\xampp\htdocs\projek\system\CodeIgniter.php(832): App\Controllers\Laporan->cuti()
+#2 C:\xampp\htdocs\projek\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#3 C:\xampp\htdocs\projek\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\projek\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\projek\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-17 10:06:08 --> Undefined variable $lapor
+#0 C:\xampp\htdocs\projek\app\Controllers\Laporan.php(85): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 85)
+#1 C:\xampp\htdocs\projek\system\CodeIgniter.php(832): App\Controllers\Laporan->cuti()
+#2 C:\xampp\htdocs\projek\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#3 C:\xampp\htdocs\projek\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\projek\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\projek\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-17 10:07:41 --> Undefined variable $lapor
+#0 C:\xampp\htdocs\projek\app\Controllers\Laporan.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 86)
+#1 C:\xampp\htdocs\projek\system\CodeIgniter.php(832): App\Controllers\Laporan->cuti()
+#2 C:\xampp\htdocs\projek\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#3 C:\xampp\htdocs\projek\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\projek\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\projek\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-17 10:09:16 --> Cannot increment array
+#0 C:\xampp\htdocs\projek\system\CodeIgniter.php(832): App\Controllers\Laporan->cuti()
+#1 C:\xampp\htdocs\projek\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#2 C:\xampp\htdocs\projek\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\projek\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\projek\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-05-17 10:45:03 --> Undefined variable $total
+#0 C:\xampp\htdocs\projek\app\Views\laporan\cuti.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 25)
+#1 C:\xampp\htdocs\projek\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\projek\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\projek\system\Common.php(1089): CodeIgniter\View\View->render('laporan/cuti.ph...', Array, true)
+#4 C:\xampp\htdocs\projek\app\Controllers\Laporan.php(94): view('laporan/cuti.ph...', Array)
+#5 C:\xampp\htdocs\projek\system\CodeIgniter.php(832): App\Controllers\Laporan->cuti()
+#6 C:\xampp\htdocs\projek\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#7 C:\xampp\htdocs\projek\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\projek\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\projek\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-05-17 10:45:19 --> Array to string conversion
+#0 C:\xampp\htdocs\projek\app\Views\laporan\cuti.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 25)
+#1 C:\xampp\htdocs\projek\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\projek\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\projek\system\Common.php(1089): CodeIgniter\View\View->render('laporan/cuti.ph...', Array, true)
+#4 C:\xampp\htdocs\projek\app\Controllers\Laporan.php(94): view('laporan/cuti.ph...', Array)
+#5 C:\xampp\htdocs\projek\system\CodeIgniter.php(832): App\Controllers\Laporan->cuti()
+#6 C:\xampp\htdocs\projek\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#7 C:\xampp\htdocs\projek\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\projek\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\projek\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-05-17 10:50:17 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+#0 C:\xampp\htdocs\projek\app\Controllers\Laporan.php(87): count(NULL)
+#1 C:\xampp\htdocs\projek\system\CodeIgniter.php(832): App\Controllers\Laporan->cuti()
+#2 C:\xampp\htdocs\projek\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#3 C:\xampp\htdocs\projek\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\projek\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\projek\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-17 10:50:38 --> count(): Argument #1 ($value) must be of type Countable|array, string given
+#0 C:\xampp\htdocs\projek\app\Controllers\Laporan.php(87): count('0')
+#1 C:\xampp\htdocs\projek\system\CodeIgniter.php(832): App\Controllers\Laporan->cuti()
+#2 C:\xampp\htdocs\projek\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#3 C:\xampp\htdocs\projek\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\projek\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\projek\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-17 10:58:51 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+#0 C:\xampp\htdocs\projek\app\Controllers\Laporan.php(85): count(NULL)
+#1 C:\xampp\htdocs\projek\system\CodeIgniter.php(832): App\Controllers\Laporan->cuti()
+#2 C:\xampp\htdocs\projek\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#3 C:\xampp\htdocs\projek\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\projek\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\projek\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-17 10:59:04 --> count(): Argument #1 ($value) must be of type Countable|array, int given
+#0 C:\xampp\htdocs\projek\app\Controllers\Laporan.php(85): count(0)
+#1 C:\xampp\htdocs\projek\system\CodeIgniter.php(832): App\Controllers\Laporan->cuti()
+#2 C:\xampp\htdocs\projek\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#3 C:\xampp\htdocs\projek\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\projek\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\projek\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-17 13:05:28 --> Invalid file: login.php
+#0 C:\xampp\htdocs\projek\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('login.php')
+#1 C:\xampp\htdocs\projek\system\Common.php(1089): CodeIgniter\View\View->render('login.php', Array, true)
+#2 C:\xampp\htdocs\projek\app\Controllers\Login.php(9): view('login.php')
+#3 C:\xampp\htdocs\projek\system\CodeIgniter.php(832): App\Controllers\Login->index()
+#4 C:\xampp\htdocs\projek\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#5 C:\xampp\htdocs\projek\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\projek\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\projek\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-05-17 13:30:18 --> Attempt to read property "password" on array
+#0 C:\xampp\htdocs\projek\app\Controllers\Login.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 27)
+#1 C:\xampp\htdocs\projek\system\CodeIgniter.php(832): App\Controllers\Login->proses()
+#2 C:\xampp\htdocs\projek\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\projek\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\projek\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\projek\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-17 13:34:50 --> Attempt to read property "password" on array
+#0 C:\xampp\htdocs\projek\app\Controllers\Login.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 27)
+#1 C:\xampp\htdocs\projek\system\CodeIgniter.php(832): App\Controllers\Login->proses()
+#2 C:\xampp\htdocs\projek\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\projek\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\projek\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\projek\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-17 13:41:26 --> Attempt to read property "password" on array
+#0 C:\xampp\htdocs\projek\app\Controllers\Login.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\projek\system\CodeIgniter.php(832): App\Controllers\Login->proses()
+#2 C:\xampp\htdocs\projek\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\projek\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\projek\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\projek\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-17 13:46:48 --> CodeIgniter\Database\BaseBuilder::get(): Argument #1 ($limit) must be of type ?int, string given, called in C:\xampp\htdocs\projek\system\Model.php on line 728
+#0 C:\xampp\htdocs\projek\system\Model.php(728): CodeIgniter\Database\BaseBuilder->get('ahmad')
+#1 C:\xampp\htdocs\projek\app\Controllers\Login.php(23): CodeIgniter\Model->__call('get', Array)
+#2 C:\xampp\htdocs\projek\system\CodeIgniter.php(832): App\Controllers\Login->proses()
+#3 C:\xampp\htdocs\projek\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#4 C:\xampp\htdocs\projek\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\projek\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\projek\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-05-17 13:47:14 --> CodeIgniter\Database\BaseBuilder::get(): Argument #1 ($limit) must be of type ?int, string given, called in C:\xampp\htdocs\projek\system\Model.php on line 728
+#0 C:\xampp\htdocs\projek\system\Model.php(728): CodeIgniter\Database\BaseBuilder->get('ahmad')
+#1 C:\xampp\htdocs\projek\app\Controllers\Login.php(23): CodeIgniter\Model->__call('get', Array)
+#2 C:\xampp\htdocs\projek\system\CodeIgniter.php(832): App\Controllers\Login->proses()
+#3 C:\xampp\htdocs\projek\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#4 C:\xampp\htdocs\projek\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\projek\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\projek\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-05-17 14:11:02 --> Array to string conversion
+#0 C:\xampp\htdocs\projek\app\Controllers\Login.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 27)
+#1 C:\xampp\htdocs\projek\system\CodeIgniter.php(832): App\Controllers\Login->proses()
+#2 C:\xampp\htdocs\projek\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\projek\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\projek\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\projek\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-17 15:13:51 --> There is no data to insert.
+#0 C:\xampp\htdocs\projek\system\BaseModel.php(718): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 C:\xampp\htdocs\projek\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#2 C:\xampp\htdocs\projek\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#3 C:\xampp\htdocs\projek\app\Controllers\Login.php(66): CodeIgniter\BaseModel->save(Array)
+#4 C:\xampp\htdocs\projek\system\CodeIgniter.php(832): App\Controllers\Login->save()
+#5 C:\xampp\htdocs\projek\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#6 C:\xampp\htdocs\projek\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\projek\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\projek\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-05-17 15:14:25 --> There is no data to insert.
+#0 C:\xampp\htdocs\projek\system\BaseModel.php(718): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 C:\xampp\htdocs\projek\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#2 C:\xampp\htdocs\projek\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#3 C:\xampp\htdocs\projek\app\Controllers\Login.php(66): CodeIgniter\BaseModel->save(Array)
+#4 C:\xampp\htdocs\projek\system\CodeIgniter.php(832): App\Controllers\Login->save()
+#5 C:\xampp\htdocs\projek\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#6 C:\xampp\htdocs\projek\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\projek\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\projek\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-05-17 15:49:19 --> Undefined array key 0
+#0 C:\xampp\htdocs\projek\app\Controllers\Login.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 31)
+#1 C:\xampp\htdocs\projek\system\CodeIgniter.php(832): App\Controllers\Login->proses()
+#2 C:\xampp\htdocs\projek\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\projek\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\projek\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\projek\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-17 15:51:13 --> Undefined array key 0
+#0 C:\xampp\htdocs\projek\app\Controllers\Login.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 31)
+#1 C:\xampp\htdocs\projek\system\CodeIgniter.php(832): App\Controllers\Login->proses()
+#2 C:\xampp\htdocs\projek\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\projek\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\projek\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\projek\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-17 15:58:46 --> Undefined variable $validation
+#0 C:\xampp\htdocs\projek\app\Views\loggin\register.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 64)
+#1 C:\xampp\htdocs\projek\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\projek\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\projek\system\Common.php(1089): CodeIgniter\View\View->render('\\loggin\\registe...', Array, true)
+#4 C:\xampp\htdocs\projek\app\Controllers\Login.php(80): view('\\loggin\\registe...')
+#5 C:\xampp\htdocs\projek\system\CodeIgniter.php(832): App\Controllers\Login->register()
+#6 C:\xampp\htdocs\projek\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 C:\xampp\htdocs\projek\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\projek\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\projek\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-05-17 16:05:43 --> Undefined array key 0
+#0 C:\xampp\htdocs\projek\app\Controllers\Login.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 51)
+#1 C:\xampp\htdocs\projek\system\CodeIgniter.php(832): App\Controllers\Login->proses()
+#2 C:\xampp\htdocs\projek\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\projek\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\projek\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\projek\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-17 16:18:45 --> Too few arguments to function App\Controllers\Login::edit(), 0 passed in C:\xampp\htdocs\projek\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\projek\system\CodeIgniter.php(832): App\Controllers\Login->edit()
+#1 C:\xampp\htdocs\projek\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#2 C:\xampp\htdocs\projek\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\projek\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\projek\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-05-17 16:19:05 --> Undefined variable $validation
+#0 C:\xampp\htdocs\projek\app\Views\loggin\edit.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 62)
+#1 C:\xampp\htdocs\projek\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\projek\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\projek\system\Common.php(1089): CodeIgniter\View\View->render('/loggin/edit.ph...', Array, true)
+#4 C:\xampp\htdocs\projek\app\Controllers\Login.php(118): view('/loggin/edit.ph...')
+#5 C:\xampp\htdocs\projek\system\CodeIgniter.php(832): App\Controllers\Login->edit()
+#6 C:\xampp\htdocs\projek\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 C:\xampp\htdocs\projek\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\projek\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\projek\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2022-05-17 16:21:22 --> Column 'nama_admin' cannot be null
+CRITICAL - 2022-05-17 16:21:22 --> Column 'nama_admin' cannot be null
+#0 C:\xampp\htdocs\projek\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ad...', 0)
+#1 C:\xampp\htdocs\projek\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ad...')
+#2 C:\xampp\htdocs\projek\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ad...')
+#3 C:\xampp\htdocs\projek\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ad...', Array, false)
+#4 C:\xampp\htdocs\projek\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\projek\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\projek\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\projek\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\projek\app\Controllers\Login.php(112): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\projek\system\CodeIgniter.php(832): App\Controllers\Login->save()
+#10 C:\xampp\htdocs\projek\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#11 C:\xampp\htdocs\projek\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\projek\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\projek\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#14 {main}

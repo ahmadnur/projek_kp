@@ -1,0 +1,256 @@
+ERROR - 2022-04-14 08:08:59 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2022-04-14 08:08:59 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 C:\xampp\htdocs\projek\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\projek\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\projek\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\projek\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\xampp\htdocs\projek\app\Controllers\Pendaftaran.php(13): CodeIgniter\BaseModel->findAll()
+#5 C:\xampp\htdocs\projek\system\CodeIgniter.php(832): App\Controllers\Pendaftaran->baru()
+#6 C:\xampp\htdocs\projek\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendaftaran))
+#7 C:\xampp\htdocs\projek\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\projek\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\projek\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-04-14 08:17:38 --> Call to a member function where() on null
+#0 C:\xampp\htdocs\projek\system\CodeIgniter.php(832): App\Controllers\Recruitment->databaru()
+#1 C:\xampp\htdocs\projek\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recruitment))
+#2 C:\xampp\htdocs\projek\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\projek\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\projek\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-04-14 09:05:25 --> Call to undefined method App\Models\BahasaModel::getBahasa
+#0 C:\xampp\htdocs\projek\app\Controllers\Home.php(47): CodeIgniter\Model->__call('getBahasa', Array)
+#1 C:\xampp\htdocs\projek\system\CodeIgniter.php(832): App\Controllers\Home->profil()
+#2 C:\xampp\htdocs\projek\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\projek\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\projek\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\projek\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-04-14 09:06:23 --> Undefined property: App\Controllers\Absensi::$rule_cutimodel
+#0 C:\xampp\htdocs\projek\app\Controllers\Absensi.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 18)
+#1 C:\xampp\htdocs\projek\system\CodeIgniter.php(832): App\Controllers\Absensi->harian()
+#2 C:\xampp\htdocs\projek\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absensi))
+#3 C:\xampp\htdocs\projek\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\projek\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\projek\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-04-14 09:09:34 --> Undefined property: App\Controllers\Absensi::$rule_cutimodel
+#0 C:\xampp\htdocs\projek\app\Controllers\Absensi.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 18)
+#1 C:\xampp\htdocs\projek\system\CodeIgniter.php(832): App\Controllers\Absensi->harian()
+#2 C:\xampp\htdocs\projek\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absensi))
+#3 C:\xampp\htdocs\projek\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\projek\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\projek\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2022-04-14 09:09:50 --> Unknown column 'rule_cuti.id_ijin' in 'on clause'
+CRITICAL - 2022-04-14 09:09:50 --> Unknown column 'rule_cuti.id_ijin' in 'on clause'
+#0 C:\xampp\htdocs\projek\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\projek\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\projek\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\projek\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\projek\app\Models\Rule_cutiModel.php(20): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projek\app\Controllers\Absensi.php(18): App\Models\Rule_cutiModel->getAll()
+#6 C:\xampp\htdocs\projek\system\CodeIgniter.php(832): App\Controllers\Absensi->harian()
+#7 C:\xampp\htdocs\projek\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absensi))
+#8 C:\xampp\htdocs\projek\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\projek\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\projek\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2022-04-14 09:15:06 --> Call to a member function findAll() on null
+#0 C:\xampp\htdocs\projek\system\CodeIgniter.php(832): App\Controllers\Absensi->harian()
+#1 C:\xampp\htdocs\projek\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absensi))
+#2 C:\xampp\htdocs\projek\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\projek\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\projek\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+ERROR - 2022-04-14 09:33:55 --> Operand should contain 1 column(s)
+CRITICAL - 2022-04-14 09:33:55 --> Operand should contain 1 column(s)
+#0 C:\xampp\htdocs\projek\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `co...', 0)
+#1 C:\xampp\htdocs\projek\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `co...')
+#2 C:\xampp\htdocs\projek\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `co...')
+#3 C:\xampp\htdocs\projek\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `co...', Array, false)
+#4 C:\xampp\htdocs\projek\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\projek\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\projek\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\projek\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\projek\app\Controllers\Save.php(214): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\projek\system\CodeIgniter.php(832): App\Controllers\Save->performa()
+#10 C:\xampp\htdocs\projek\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Save))
+#11 C:\xampp\htdocs\projek\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\projek\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\projek\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2022-04-14 09:59:51 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\projek\system\CodeIgniter.php(832): App\Controllers\Save->performa()
+#1 C:\xampp\htdocs\projek\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Save))
+#2 C:\xampp\htdocs\projek\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\projek\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\projek\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+ERROR - 2022-04-14 11:30:57 --> Table 'karyawan.datatdiri' doesn't exist
+CRITICAL - 2022-04-14 11:30:57 --> Table 'karyawan.datatdiri' doesn't exist
+#0 C:\xampp\htdocs\projek\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT MAX(`id_...', 0)
+#1 C:\xampp\htdocs\projek\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT MAX(`id_...')
+#2 C:\xampp\htdocs\projek\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT MAX(`id_...')
+#3 C:\xampp\htdocs\projek\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT MAX(`id_...', Array, false)
+#4 C:\xampp\htdocs\projek\app\Models\DatadiriModel.php(23): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projek\app\Controllers\Save.php(72): App\Models\DatadiriModel->awal()
+#6 C:\xampp\htdocs\projek\system\CodeIgniter.php(832): App\Controllers\Save->save()
+#7 C:\xampp\htdocs\projek\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Save))
+#8 C:\xampp\htdocs\projek\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\projek\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\projek\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2022-04-14 11:33:19 --> foreach() argument must be of type array|object, null given
+#0 C:\xampp\htdocs\projek\app\Controllers\Save.php(82): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'C:\\xampp\\htdocs...', 82)
+#1 C:\xampp\htdocs\projek\system\CodeIgniter.php(832): App\Controllers\Save->save()
+#2 C:\xampp\htdocs\projek\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Save))
+#3 C:\xampp\htdocs\projek\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\projek\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\projek\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-04-14 11:33:39 --> foreach() argument must be of type array|object, null given
+#0 C:\xampp\htdocs\projek\app\Controllers\Save.php(82): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'C:\\xampp\\htdocs...', 82)
+#1 C:\xampp\htdocs\projek\system\CodeIgniter.php(832): App\Controllers\Save->save()
+#2 C:\xampp\htdocs\projek\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Save))
+#3 C:\xampp\htdocs\projek\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\projek\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\projek\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-04-14 11:35:31 --> foreach() argument must be of type array|object, null given
+#0 C:\xampp\htdocs\projek\app\Controllers\Save.php(82): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'C:\\xampp\\htdocs...', 82)
+#1 C:\xampp\htdocs\projek\system\CodeIgniter.php(832): App\Controllers\Save->save()
+#2 C:\xampp\htdocs\projek\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Save))
+#3 C:\xampp\htdocs\projek\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\projek\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\projek\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-04-14 11:35:50 --> foreach() argument must be of type array|object, string given
+#0 C:\xampp\htdocs\projek\app\Controllers\Save.php(82): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'C:\\xampp\\htdocs...', 82)
+#1 C:\xampp\htdocs\projek\system\CodeIgniter.php(832): App\Controllers\Save->save()
+#2 C:\xampp\htdocs\projek\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Save))
+#3 C:\xampp\htdocs\projek\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\projek\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\projek\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-04-14 13:16:09 --> foreach() argument must be of type array|object, string given
+#0 C:\xampp\htdocs\projek\app\Controllers\Save.php(99): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'C:\\xampp\\htdocs...', 99)
+#1 C:\xampp\htdocs\projek\system\CodeIgniter.php(832): App\Controllers\Save->save()
+#2 C:\xampp\htdocs\projek\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Save))
+#3 C:\xampp\htdocs\projek\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\projek\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\projek\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-04-14 13:17:31 --> foreach() argument must be of type array|object, string given
+#0 C:\xampp\htdocs\projek\app\Controllers\Save.php(99): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'C:\\xampp\\htdocs...', 99)
+#1 C:\xampp\htdocs\projek\system\CodeIgniter.php(832): App\Controllers\Save->save()
+#2 C:\xampp\htdocs\projek\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Save))
+#3 C:\xampp\htdocs\projek\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\projek\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\projek\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-04-14 13:19:17 --> foreach() argument must be of type array|object, null given
+#0 C:\xampp\htdocs\projek\app\Controllers\Save.php(99): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'C:\\xampp\\htdocs...', 99)
+#1 C:\xampp\htdocs\projek\system\CodeIgniter.php(832): App\Controllers\Save->save()
+#2 C:\xampp\htdocs\projek\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Save))
+#3 C:\xampp\htdocs\projek\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\projek\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\projek\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-04-14 13:20:22 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\projek\app\Controllers\Save.php(106): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 106)
+#1 C:\xampp\htdocs\projek\system\CodeIgniter.php(832): App\Controllers\Save->save()
+#2 C:\xampp\htdocs\projek\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Save))
+#3 C:\xampp\htdocs\projek\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\projek\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\projek\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-04-14 13:27:40 --> Undefined array key 1
+#0 C:\xampp\htdocs\projek\app\Controllers\Save.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 108)
+#1 C:\xampp\htdocs\projek\system\CodeIgniter.php(832): App\Controllers\Save->save()
+#2 C:\xampp\htdocs\projek\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Save))
+#3 C:\xampp\htdocs\projek\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\projek\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\projek\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-04-14 13:46:55 --> foreach() argument must be of type array|object, null given
+#0 C:\xampp\htdocs\projek\app\Controllers\Save.php(112): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'C:\\xampp\\htdocs...', 112)
+#1 C:\xampp\htdocs\projek\system\CodeIgniter.php(832): App\Controllers\Save->save()
+#2 C:\xampp\htdocs\projek\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Save))
+#3 C:\xampp\htdocs\projek\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\projek\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\projek\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-04-14 13:49:43 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\projek\app\Controllers\Save.php(118): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 118)
+#1 C:\xampp\htdocs\projek\system\CodeIgniter.php(832): App\Controllers\Save->save()
+#2 C:\xampp\htdocs\projek\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Save))
+#3 C:\xampp\htdocs\projek\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\projek\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\projek\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-04-14 14:07:07 --> foreach() argument must be of type array|object, null given
+#0 C:\xampp\htdocs\projek\app\Controllers\Save.php(137): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'C:\\xampp\\htdocs...', 137)
+#1 C:\xampp\htdocs\projek\system\CodeIgniter.php(832): App\Controllers\Save->save()
+#2 C:\xampp\htdocs\projek\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Save))
+#3 C:\xampp\htdocs\projek\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\projek\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\projek\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-04-14 14:07:58 --> foreach() argument must be of type array|object, null given
+#0 C:\xampp\htdocs\projek\app\Controllers\Save.php(137): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'C:\\xampp\\htdocs...', 137)
+#1 C:\xampp\htdocs\projek\system\CodeIgniter.php(832): App\Controllers\Save->save()
+#2 C:\xampp\htdocs\projek\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Save))
+#3 C:\xampp\htdocs\projek\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\projek\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\projek\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-04-14 14:08:33 --> foreach() argument must be of type array|object, null given
+#0 C:\xampp\htdocs\projek\app\Controllers\Save.php(137): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'C:\\xampp\\htdocs...', 137)
+#1 C:\xampp\htdocs\projek\system\CodeIgniter.php(832): App\Controllers\Save->save()
+#2 C:\xampp\htdocs\projek\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Save))
+#3 C:\xampp\htdocs\projek\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\projek\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\projek\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-04-14 14:09:01 --> foreach() argument must be of type array|object, null given
+#0 C:\xampp\htdocs\projek\app\Controllers\Save.php(137): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'C:\\xampp\\htdocs...', 137)
+#1 C:\xampp\htdocs\projek\system\CodeIgniter.php(832): App\Controllers\Save->save()
+#2 C:\xampp\htdocs\projek\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Save))
+#3 C:\xampp\htdocs\projek\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\projek\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\projek\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-04-14 15:52:33 --> Undefined variable $jawab1
+#0 C:\xampp\htdocs\projek\app\Controllers\Save.php(219): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 219)
+#1 C:\xampp\htdocs\projek\system\CodeIgniter.php(832): App\Controllers\Save->save()
+#2 C:\xampp\htdocs\projek\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Save))
+#3 C:\xampp\htdocs\projek\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\projek\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\projek\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-04-14 15:54:25 --> Undefined variable $jawab1
+#0 C:\xampp\htdocs\projek\app\Controllers\Save.php(219): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 219)
+#1 C:\xampp\htdocs\projek\system\CodeIgniter.php(832): App\Controllers\Save->save()
+#2 C:\xampp\htdocs\projek\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Save))
+#3 C:\xampp\htdocs\projek\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\projek\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\projek\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-04-14 15:55:30 --> Undefined variable $jawab1
+#0 C:\xampp\htdocs\projek\app\Controllers\Save.php(227): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 227)
+#1 C:\xampp\htdocs\projek\system\CodeIgniter.php(832): App\Controllers\Save->save()
+#2 C:\xampp\htdocs\projek\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Save))
+#3 C:\xampp\htdocs\projek\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\projek\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\projek\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-04-14 15:58:03 --> Undefined variable $jawab1
+#0 C:\xampp\htdocs\projek\app\Controllers\Save.php(222): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 222)
+#1 C:\xampp\htdocs\projek\system\CodeIgniter.php(832): App\Controllers\Save->save()
+#2 C:\xampp\htdocs\projek\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Save))
+#3 C:\xampp\htdocs\projek\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\projek\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\projek\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}

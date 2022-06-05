@@ -1,0 +1,429 @@
+CRITICAL - 2022-05-14 08:57:04 --> Undefined property: CodeIgniter\Database\MySQLi\Builder::$SELECT * FROM tabel where month(tgl_diterima)='5'
+#0 C:\xampp\htdocs\projek\app\Models\KaryawanModel.php(99): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 99)
+#1 C:\xampp\htdocs\projek\app\Controllers\Home.php(37): App\Models\KaryawanModel->graph_masuk(5)
+#2 C:\xampp\htdocs\projek\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#3 C:\xampp\htdocs\projek\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\projek\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\projek\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\projek\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+ERROR - 2022-05-14 08:58:23 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'SELECT * FROM tabel where month(tgl_diterima)='5'
+FROM `karyawan`' at line 1
+CRITICAL - 2022-05-14 08:58:23 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'SELECT * FROM tabel where month(tgl_diterima)='5'
+FROM `karyawan`' at line 1
+#0 C:\xampp\htdocs\projek\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT SELECT *...', 0)
+#1 C:\xampp\htdocs\projek\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT SELECT *...')
+#2 C:\xampp\htdocs\projek\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT SELECT *...')
+#3 C:\xampp\htdocs\projek\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT SELECT *...', Array, false)
+#4 C:\xampp\htdocs\projek\app\Models\KaryawanModel.php(100): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projek\app\Controllers\Home.php(37): App\Models\KaryawanModel->graph_masuk(5)
+#6 C:\xampp\htdocs\projek\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#7 C:\xampp\htdocs\projek\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\projek\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\projek\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\projek\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-05-14 08:59:09 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'SELECT * FROM tabel where month(tgl_diterima)='05'
+FROM `karyawan`' at line 1
+CRITICAL - 2022-05-14 08:59:09 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'SELECT * FROM tabel where month(tgl_diterima)='05'
+FROM `karyawan`' at line 1
+#0 C:\xampp\htdocs\projek\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT SELECT *...', 0)
+#1 C:\xampp\htdocs\projek\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT SELECT *...')
+#2 C:\xampp\htdocs\projek\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT SELECT *...')
+#3 C:\xampp\htdocs\projek\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT SELECT *...', Array, false)
+#4 C:\xampp\htdocs\projek\app\Models\KaryawanModel.php(100): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projek\app\Controllers\Home.php(37): App\Models\KaryawanModel->graph_masuk('05')
+#6 C:\xampp\htdocs\projek\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#7 C:\xampp\htdocs\projek\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\projek\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\projek\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\projek\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-05-14 09:07:41 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'SELECT * FROM tabel where month(tgl_diterima)='Y-05'
+FROM `karyawan`' at line 1
+CRITICAL - 2022-05-14 09:07:41 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'SELECT * FROM tabel where month(tgl_diterima)='Y-05'
+FROM `karyawan`' at line 1
+#0 C:\xampp\htdocs\projek\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT SELECT *...', 0)
+#1 C:\xampp\htdocs\projek\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT SELECT *...')
+#2 C:\xampp\htdocs\projek\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT SELECT *...')
+#3 C:\xampp\htdocs\projek\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT SELECT *...', Array, false)
+#4 C:\xampp\htdocs\projek\app\Models\KaryawanModel.php(100): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projek\app\Controllers\Home.php(37): App\Models\KaryawanModel->graph_masuk('Y-05')
+#6 C:\xampp\htdocs\projek\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#7 C:\xampp\htdocs\projek\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\projek\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\projek\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\projek\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-05-14 09:16:20 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'SELECT * FROM tabel where month(tgl_diterima)='05'
+FROM `karyawan`' at line 1
+CRITICAL - 2022-05-14 09:16:21 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'SELECT * FROM tabel where month(tgl_diterima)='05'
+FROM `karyawan`' at line 1
+#0 C:\xampp\htdocs\projek\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT SELECT *...', 0)
+#1 C:\xampp\htdocs\projek\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT SELECT *...')
+#2 C:\xampp\htdocs\projek\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT SELECT *...')
+#3 C:\xampp\htdocs\projek\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT SELECT *...', Array, false)
+#4 C:\xampp\htdocs\projek\app\Models\KaryawanModel.php(100): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projek\app\Controllers\Home.php(37): App\Models\KaryawanModel->graph_masuk('05')
+#6 C:\xampp\htdocs\projek\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#7 C:\xampp\htdocs\projek\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\projek\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\projek\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\projek\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-05-14 09:16:47 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'SELECT * FROM karyawan where month(tgl_diterima)='05'
+FROM `karyawan`' at line 1
+CRITICAL - 2022-05-14 09:16:47 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'SELECT * FROM karyawan where month(tgl_diterima)='05'
+FROM `karyawan`' at line 1
+#0 C:\xampp\htdocs\projek\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT SELECT *...', 0)
+#1 C:\xampp\htdocs\projek\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT SELECT *...')
+#2 C:\xampp\htdocs\projek\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT SELECT *...')
+#3 C:\xampp\htdocs\projek\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT SELECT *...', Array, false)
+#4 C:\xampp\htdocs\projek\app\Models\KaryawanModel.php(100): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projek\app\Controllers\Home.php(37): App\Models\KaryawanModel->graph_masuk('05')
+#6 C:\xampp\htdocs\projek\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#7 C:\xampp\htdocs\projek\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\projek\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\projek\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\projek\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2022-05-14 09:18:10 --> Undefined property: CodeIgniter\Database\MySQLi\Builder::$where
+#0 C:\xampp\htdocs\projek\app\Models\KaryawanModel.php(97): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 97)
+#1 C:\xampp\htdocs\projek\app\Controllers\Home.php(37): App\Models\KaryawanModel->graph_masuk('05')
+#2 C:\xampp\htdocs\projek\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#3 C:\xampp\htdocs\projek\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\projek\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\projek\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\projek\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+ERROR - 2022-05-14 09:22:37 --> Illegal parameter data types date and row for operation '='
+CRITICAL - 2022-05-14 09:22:37 --> Illegal parameter data types date and row for operation '='
+#0 C:\xampp\htdocs\projek\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\projek\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\projek\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\projek\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\projek\app\Models\KaryawanModel.php(100): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projek\app\Controllers\Home.php(38): App\Models\KaryawanModel->graph_masuk(Array)
+#6 C:\xampp\htdocs\projek\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#7 C:\xampp\htdocs\projek\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\projek\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\projek\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\projek\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-05-14 09:23:15 --> Illegal parameter data types date and row for operation '='
+CRITICAL - 2022-05-14 09:23:15 --> Illegal parameter data types date and row for operation '='
+#0 C:\xampp\htdocs\projek\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\projek\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\projek\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\projek\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\projek\app\Models\KaryawanModel.php(100): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projek\app\Controllers\Home.php(39): App\Models\KaryawanModel->graph_masuk(Array)
+#6 C:\xampp\htdocs\projek\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#7 C:\xampp\htdocs\projek\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\projek\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\projek\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\projek\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2022-05-14 09:24:08 --> Undefined array key 1
+#0 C:\xampp\htdocs\projek\app\Controllers\Home.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 38)
+#1 C:\xampp\htdocs\projek\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#2 C:\xampp\htdocs\projek\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\projek\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\projek\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\projek\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-14 09:25:51 --> Undefined array key 1
+#0 C:\xampp\htdocs\projek\app\Controllers\Home.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 38)
+#1 C:\xampp\htdocs\projek\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#2 C:\xampp\htdocs\projek\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\projek\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\projek\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\projek\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2022-05-14 09:26:06 --> Illegal parameter data types date and row for operation '='
+CRITICAL - 2022-05-14 09:26:06 --> Illegal parameter data types date and row for operation '='
+#0 C:\xampp\htdocs\projek\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\projek\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\projek\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\projek\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\projek\app\Models\KaryawanModel.php(100): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projek\app\Controllers\Home.php(38): App\Models\KaryawanModel->graph_masuk(Array)
+#6 C:\xampp\htdocs\projek\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#7 C:\xampp\htdocs\projek\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\projek\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\projek\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\projek\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-05-14 09:41:44 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '< '\'2022\'-\'05\'-1'
+AND `tgl_diterima` = > '\'2022\'-\'05\'-31'' at line 3
+CRITICAL - 2022-05-14 09:41:44 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '< '\'2022\'-\'05\'-1'
+AND `tgl_diterima` = > '\'2022\'-\'05\'-31'' at line 3
+#0 C:\xampp\htdocs\projek\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\projek\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\projek\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\projek\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\projek\app\Models\KaryawanModel.php(101): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projek\app\Controllers\Home.php(38): App\Models\KaryawanModel->graph_masuk('05', '2022')
+#6 C:\xampp\htdocs\projek\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#7 C:\xampp\htdocs\projek\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\projek\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\projek\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\projek\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-05-14 09:42:28 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '< '\'2022\'\'05\'1'
+AND `tgl_diterima` = > '\'2022\'\'05\'31'' at line 3
+CRITICAL - 2022-05-14 09:42:28 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '< '\'2022\'\'05\'1'
+AND `tgl_diterima` = > '\'2022\'\'05\'31'' at line 3
+#0 C:\xampp\htdocs\projek\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\projek\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\projek\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\projek\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\projek\app\Models\KaryawanModel.php(101): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projek\app\Controllers\Home.php(38): App\Models\KaryawanModel->graph_masuk('05', '2022')
+#6 C:\xampp\htdocs\projek\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#7 C:\xampp\htdocs\projek\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\projek\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\projek\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\projek\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-05-14 09:42:58 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '< '\'.2022\'-\'.05\'1'
+AND `tgl_diterima` = > '\'2022\'\'05\'31'' at line 3
+CRITICAL - 2022-05-14 09:42:58 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '< '\'.2022\'-\'.05\'1'
+AND `tgl_diterima` = > '\'2022\'\'05\'31'' at line 3
+#0 C:\xampp\htdocs\projek\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\projek\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\projek\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\projek\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\projek\app\Models\KaryawanModel.php(101): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projek\app\Controllers\Home.php(38): App\Models\KaryawanModel->graph_masuk('05', '2022')
+#6 C:\xampp\htdocs\projek\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#7 C:\xampp\htdocs\projek\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\projek\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\projek\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\projek\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-05-14 09:43:28 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '< '\'2022\'-\'05\'-1'
+AND `tgl_diterima` = > '\'2022\'\'05\'31'' at line 3
+CRITICAL - 2022-05-14 09:43:28 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '< '\'2022\'-\'05\'-1'
+AND `tgl_diterima` = > '\'2022\'\'05\'31'' at line 3
+#0 C:\xampp\htdocs\projek\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\projek\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\projek\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\projek\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\projek\app\Models\KaryawanModel.php(101): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projek\app\Controllers\Home.php(38): App\Models\KaryawanModel->graph_masuk('05', '2022')
+#6 C:\xampp\htdocs\projek\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#7 C:\xampp\htdocs\projek\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\projek\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\projek\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\projek\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-05-14 09:44:04 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '< '\'2022\'-\'05\'-1'
+AND `tgl_diterima` = > '\'2022\'-\'05\'-31'' at line 3
+CRITICAL - 2022-05-14 09:44:04 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '< '\'2022\'-\'05\'-1'
+AND `tgl_diterima` = > '\'2022\'-\'05\'-31'' at line 3
+#0 C:\xampp\htdocs\projek\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\projek\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\projek\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\projek\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\projek\app\Models\KaryawanModel.php(101): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projek\app\Controllers\Home.php(38): App\Models\KaryawanModel->graph_masuk('05', '2022')
+#6 C:\xampp\htdocs\projek\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#7 C:\xampp\htdocs\projek\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\projek\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\projek\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\projek\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-05-14 09:44:55 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '< '2022-05-1'
+AND `tgl_diterima` = > '\'2022\'-\'05\'-31'' at line 3
+CRITICAL - 2022-05-14 09:44:55 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '< '2022-05-1'
+AND `tgl_diterima` = > '\'2022\'-\'05\'-31'' at line 3
+#0 C:\xampp\htdocs\projek\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\projek\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\projek\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\projek\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\projek\app\Models\KaryawanModel.php(101): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projek\app\Controllers\Home.php(38): App\Models\KaryawanModel->graph_masuk('05', '2022')
+#6 C:\xampp\htdocs\projek\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#7 C:\xampp\htdocs\projek\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\projek\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\projek\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\projek\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-05-14 09:45:15 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '< '2022-05-1'
+AND `tgl_diterima` = > '2022-05-31'' at line 3
+CRITICAL - 2022-05-14 09:45:15 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '< '2022-05-1'
+AND `tgl_diterima` = > '2022-05-31'' at line 3
+#0 C:\xampp\htdocs\projek\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\projek\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\projek\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\projek\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\projek\app\Models\KaryawanModel.php(101): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projek\app\Controllers\Home.php(38): App\Models\KaryawanModel->graph_masuk('05', '2022')
+#6 C:\xampp\htdocs\projek\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#7 C:\xampp\htdocs\projek\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\projek\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\projek\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\projek\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2022-05-14 10:05:36 --> Undefined variable $terms
+#0 C:\xampp\htdocs\projek\app\Views\dashboard.php(105): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 105)
+#1 C:\xampp\htdocs\projek\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\projek\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\projek\system\Common.php(1089): CodeIgniter\View\View->render('dashboard.php', Array, true)
+#4 C:\xampp\htdocs\projek\app\Controllers\Home.php(67): view('dashboard.php', Array)
+#5 C:\xampp\htdocs\projek\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\projek\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\projek\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\projek\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\projek\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-05-14 11:08:39 --> Undefined property: App\Controllers\Home::$KaryawanModel
+#0 C:\xampp\htdocs\projek\app\Controllers\Home.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 59)
+#1 C:\xampp\htdocs\projek\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#2 C:\xampp\htdocs\projek\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\projek\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\projek\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\projek\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-14 11:14:06 --> Undefined variable $masuk2
+#0 C:\xampp\htdocs\projek\app\Views\layout\template.php(544): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 544)
+#1 C:\xampp\htdocs\projek\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\projek\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\projek\system\View\View.php(226): CodeIgniter\View\View->render('layout/template', Array, true)
+#4 C:\xampp\htdocs\projek\system\Common.php(1089): CodeIgniter\View\View->render('profil.php', Array, true)
+#5 C:\xampp\htdocs\projek\app\Controllers\Home.php(216): view('profil.php', Array)
+#6 C:\xampp\htdocs\projek\system\CodeIgniter.php(832): App\Controllers\Home->profil('2')
+#7 C:\xampp\htdocs\projek\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\projek\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\projek\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\projek\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-05-14 11:14:29 --> Illegal parameter data types int and row for operation '<='
+CRITICAL - 2022-05-14 11:14:29 --> Illegal parameter data types int and row for operation '<='
+#0 C:\xampp\htdocs\projek\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\projek\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\projek\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\projek\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\projek\app\Models\KaryawanModel.php(123): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projek\app\Controllers\Home.php(59): App\Models\KaryawanModel->jabat(Array)
+#6 C:\xampp\htdocs\projek\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#7 C:\xampp\htdocs\projek\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\projek\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\projek\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\projek\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-05-14 11:15:07 --> Illegal parameter data types int and row for operation '='
+CRITICAL - 2022-05-14 11:15:07 --> Illegal parameter data types int and row for operation '='
+#0 C:\xampp\htdocs\projek\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\projek\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\projek\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\projek\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\projek\app\Models\KaryawanModel.php(123): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projek\app\Controllers\Home.php(59): App\Models\KaryawanModel->jabat(Array)
+#6 C:\xampp\htdocs\projek\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#7 C:\xampp\htdocs\projek\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\projek\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\projek\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\projek\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-05-14 11:15:35 --> Illegal parameter data types int and row for operation '='
+CRITICAL - 2022-05-14 11:15:35 --> Illegal parameter data types int and row for operation '='
+#0 C:\xampp\htdocs\projek\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\projek\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\projek\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\projek\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\projek\app\Models\KaryawanModel.php(123): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projek\app\Controllers\Home.php(59): App\Models\KaryawanModel->jabat(Array)
+#6 C:\xampp\htdocs\projek\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#7 C:\xampp\htdocs\projek\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\projek\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\projek\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\projek\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2022-05-14 11:30:37 --> Undefined variable $data_masuk
+#0 C:\xampp\htdocs\projek\app\Views\layout\template.php(544): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 544)
+#1 C:\xampp\htdocs\projek\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\projek\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\projek\system\View\View.php(226): CodeIgniter\View\View->render('layout/template', Array, true)
+#4 C:\xampp\htdocs\projek\system\Common.php(1089): CodeIgniter\View\View->render('absensi/upload....', Array, true)
+#5 C:\xampp\htdocs\projek\app\Controllers\Absensi.php(48): view('absensi/upload....', Array)
+#6 C:\xampp\htdocs\projek\system\CodeIgniter.php(832): App\Controllers\Absensi->upload()
+#7 C:\xampp\htdocs\projek\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absensi))
+#8 C:\xampp\htdocs\projek\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\projek\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\projek\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-05-14 11:35:58 --> Column 'id_karyawan' cannot be null
+CRITICAL - 2022-05-14 11:35:58 --> Column 'id_karyawan' cannot be null
+#0 C:\xampp\htdocs\projek\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ab...', 0)
+#1 C:\xampp\htdocs\projek\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ab...')
+#2 C:\xampp\htdocs\projek\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ab...')
+#3 C:\xampp\htdocs\projek\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ab...', Array, false)
+#4 C:\xampp\htdocs\projek\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\projek\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\projek\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\projek\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\projek\app\Controllers\Save.php(912): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\projek\system\CodeIgniter.php(832): App\Controllers\Save->upload()
+#10 C:\xampp\htdocs\projek\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Save))
+#11 C:\xampp\htdocs\projek\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\projek\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\projek\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+ERROR - 2022-05-14 11:41:53 --> Column 'id_karyawan' cannot be null
+CRITICAL - 2022-05-14 11:41:53 --> Column 'id_karyawan' cannot be null
+#0 C:\xampp\htdocs\projek\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ab...', 0)
+#1 C:\xampp\htdocs\projek\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ab...')
+#2 C:\xampp\htdocs\projek\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ab...')
+#3 C:\xampp\htdocs\projek\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ab...', Array, false)
+#4 C:\xampp\htdocs\projek\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\projek\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\projek\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\projek\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\projek\app\Controllers\Save.php(912): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\projek\system\CodeIgniter.php(832): App\Controllers\Save->upload()
+#10 C:\xampp\htdocs\projek\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Save))
+#11 C:\xampp\htdocs\projek\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\projek\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\projek\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2022-05-14 12:03:46 --> Undefined variable $data_masuk
+#0 C:\xampp\htdocs\projek\app\Views\layout\template.php(544): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 544)
+#1 C:\xampp\htdocs\projek\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\projek\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\projek\system\View\View.php(226): CodeIgniter\View\View->render('layout/template', Array, true)
+#4 C:\xampp\htdocs\projek\system\Common.php(1089): CodeIgniter\View\View->render('performa.php', Array, true)
+#5 C:\xampp\htdocs\projek\app\Controllers\Home.php(99): view('performa.php', Array)
+#6 C:\xampp\htdocs\projek\system\CodeIgniter.php(832): App\Controllers\Home->performa()
+#7 C:\xampp\htdocs\projek\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\projek\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\projek\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\projek\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2022-05-14 12:24:15 --> Undefined variable $data_resign
+#0 C:\xampp\htdocs\projek\app\Views\layout\template.php(610): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 610)
+#1 C:\xampp\htdocs\projek\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\projek\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\projek\system\View\View.php(226): CodeIgniter\View\View->render('layout/template', Array, true)
+#4 C:\xampp\htdocs\projek\system\Common.php(1089): CodeIgniter\View\View->render('performa.php', Array, true)
+#5 C:\xampp\htdocs\projek\app\Controllers\Home.php(99): view('performa.php', Array)
+#6 C:\xampp\htdocs\projek\system\CodeIgniter.php(832): App\Controllers\Home->performa()
+#7 C:\xampp\htdocs\projek\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\projek\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\projek\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\projek\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2022-05-14 12:25:10 --> Undefined variable $jabat
+#0 C:\xampp\htdocs\projek\app\Views\layout\template.php(634): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 634)
+#1 C:\xampp\htdocs\projek\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\projek\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\projek\system\View\View.php(226): CodeIgniter\View\View->render('layout/template', Array, true)
+#4 C:\xampp\htdocs\projek\system\Common.php(1089): CodeIgniter\View\View->render('performa.php', Array, true)
+#5 C:\xampp\htdocs\projek\app\Controllers\Home.php(99): view('performa.php', Array)
+#6 C:\xampp\htdocs\projek\system\CodeIgniter.php(832): App\Controllers\Home->performa()
+#7 C:\xampp\htdocs\projek\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\projek\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\projek\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\projek\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}

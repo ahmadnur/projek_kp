@@ -1,0 +1,10 @@
+CRITICAL - 2022-03-26 00:31:30 --> Invalid file: home.php
+#0 C:\xampp\htdocs\webkp\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('home.php')
+#1 C:\xampp\htdocs\webkp\system\Common.php(1089): CodeIgniter\View\View->render('home.php', Array, true)
+#2 C:\xampp\htdocs\webkp\app\Controllers\Home.php(13): view('home.php')
+#3 C:\xampp\htdocs\webkp\system\CodeIgniter.php(832): App\Controllers\Home->coba()
+#4 C:\xampp\htdocs\webkp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\webkp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\webkp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\webkp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}

@@ -1,0 +1,233 @@
+CRITICAL - 2022-04-20 12:38:39 --> Undefined array key "jumlah"
+#0 C:\xampp\htdocs\projek\app\Views\recruitment\lowongan.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 58)
+#1 C:\xampp\htdocs\projek\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\projek\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\projek\system\Common.php(1089): CodeIgniter\View\View->render('recruitment/low...', Array, true)
+#4 C:\xampp\htdocs\projek\app\Controllers\Recruitment.php(39): view('recruitment/low...', Array)
+#5 C:\xampp\htdocs\projek\system\CodeIgniter.php(832): App\Controllers\Recruitment->lowongan()
+#6 C:\xampp\htdocs\projek\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recruitment))
+#7 C:\xampp\htdocs\projek\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\projek\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\projek\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-04-20 12:40:14 --> Undefined array key "jumlah"
+#0 C:\xampp\htdocs\projek\app\Views\recruitment\lowongan.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 58)
+#1 C:\xampp\htdocs\projek\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\projek\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\projek\system\Common.php(1089): CodeIgniter\View\View->render('recruitment/low...', Array, true)
+#4 C:\xampp\htdocs\projek\app\Controllers\Recruitment.php(39): view('recruitment/low...', Array)
+#5 C:\xampp\htdocs\projek\system\CodeIgniter.php(832): App\Controllers\Recruitment->lowongan()
+#6 C:\xampp\htdocs\projek\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recruitment))
+#7 C:\xampp\htdocs\projek\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\projek\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\projek\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-04-20 14:26:56 --> Call to a member function findAll() on null
+#0 C:\xampp\htdocs\projek\system\CodeIgniter.php(832): App\Controllers\Absensi->harian()
+#1 C:\xampp\htdocs\projek\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absensi))
+#2 C:\xampp\htdocs\projek\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\projek\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\projek\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-04-20 02:47:20 --> require(vendor/autoload.php): Failed to open stream: No such file or directory
+#0 C:\xampp\htdocs\projek\app\Controllers\Save.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require(vendor/...', 'C:\\xampp\\htdocs...', 5)
+#1 C:\xampp\htdocs\projek\app\Controllers\Save.php(5): require()
+#2 C:\xampp\htdocs\projek\system\Router\Router.php(518): include_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\projek\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('save/upload')
+#4 C:\xampp\htdocs\projek\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('save/upload')
+#5 C:\xampp\htdocs\projek\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#6 C:\xampp\htdocs\projek\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\projek\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\projek\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-04-20 14:48:18 --> Call to a member function getClientExtension() on null
+#0 C:\xampp\htdocs\projek\system\CodeIgniter.php(832): App\Controllers\Save->upload()
+#1 C:\xampp\htdocs\projek\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Save))
+#2 C:\xampp\htdocs\projek\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\projek\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\projek\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-04-20 14:48:40 --> Call to a member function getClientExtension() on null
+#0 C:\xampp\htdocs\projek\system\CodeIgniter.php(832): App\Controllers\Save->upload()
+#1 C:\xampp\htdocs\projek\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Save))
+#2 C:\xampp\htdocs\projek\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\projek\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\projek\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-04-20 14:49:26 --> Call to a member function getClientExtension() on null
+#0 C:\xampp\htdocs\projek\system\CodeIgniter.php(832): App\Controllers\Save->upload()
+#1 C:\xampp\htdocs\projek\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Save))
+#2 C:\xampp\htdocs\projek\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\projek\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\projek\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-04-20 14:51:00 --> Class "PhpOffice\PhpSpreadsheet\Reader\Xlxs" not found
+#0 C:\xampp\htdocs\projek\system\CodeIgniter.php(832): App\Controllers\Save->upload()
+#1 C:\xampp\htdocs\projek\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Save))
+#2 C:\xampp\htdocs\projek\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\projek\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\projek\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-04-20 14:52:49 --> PhpOffice\PhpSpreadsheet\Reader\Xlsx::load(): Argument #1 ($filename) must be of type string, null given, called in C:\xampp\htdocs\projek\app\Controllers\Save.php on line 351
+#0 C:\xampp\htdocs\projek\app\Controllers\Save.php(351): PhpOffice\PhpSpreadsheet\Reader\Xlsx->load(NULL)
+#1 C:\xampp\htdocs\projek\system\CodeIgniter.php(832): App\Controllers\Save->upload()
+#2 C:\xampp\htdocs\projek\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Save))
+#3 C:\xampp\htdocs\projek\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\projek\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\projek\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-04-20 14:53:31 --> PhpOffice\PhpSpreadsheet\Reader\Xlsx::load(): Argument #1 ($filename) must be of type string, null given, called in C:\xampp\htdocs\projek\app\Controllers\Save.php on line 351
+#0 C:\xampp\htdocs\projek\app\Controllers\Save.php(351): PhpOffice\PhpSpreadsheet\Reader\Xlsx->load(NULL)
+#1 C:\xampp\htdocs\projek\system\CodeIgniter.php(832): App\Controllers\Save->upload()
+#2 C:\xampp\htdocs\projek\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Save))
+#3 C:\xampp\htdocs\projek\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\projek\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\projek\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-04-20 14:54:12 --> Call to a member function getClientExtension() on null
+#0 C:\xampp\htdocs\projek\system\CodeIgniter.php(832): App\Controllers\Save->upload()
+#1 C:\xampp\htdocs\projek\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Save))
+#2 C:\xampp\htdocs\projek\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\projek\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\projek\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-04-20 14:55:31 --> PhpOffice\PhpSpreadsheet\Reader\Xlsx::load(): Argument #1 ($filename) must be of type string, null given, called in C:\xampp\htdocs\projek\app\Controllers\Save.php on line 351
+#0 C:\xampp\htdocs\projek\app\Controllers\Save.php(351): PhpOffice\PhpSpreadsheet\Reader\Xlsx->load(NULL)
+#1 C:\xampp\htdocs\projek\system\CodeIgniter.php(832): App\Controllers\Save->upload()
+#2 C:\xampp\htdocs\projek\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Save))
+#3 C:\xampp\htdocs\projek\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\projek\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\projek\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-04-20 14:58:01 --> PhpOffice\PhpSpreadsheet\Reader\Xlsx::load(): Argument #1 ($filename) must be of type string, null given, called in C:\xampp\htdocs\projek\app\Controllers\Save.php on line 351
+#0 C:\xampp\htdocs\projek\app\Controllers\Save.php(351): PhpOffice\PhpSpreadsheet\Reader\Xlsx->load(NULL)
+#1 C:\xampp\htdocs\projek\system\CodeIgniter.php(832): App\Controllers\Save->upload()
+#2 C:\xampp\htdocs\projek\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Save))
+#3 C:\xampp\htdocs\projek\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\projek\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\projek\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-04-20 15:09:27 --> PhpOffice\PhpSpreadsheet\Reader\Xlsx::load(): Argument #1 ($filename) must be of type string, null given, called in C:\xampp\htdocs\projek\app\Controllers\Save.php on line 351
+#0 C:\xampp\htdocs\projek\app\Controllers\Save.php(351): PhpOffice\PhpSpreadsheet\Reader\Xlsx->load(NULL, 0)
+#1 C:\xampp\htdocs\projek\system\CodeIgniter.php(832): App\Controllers\Save->upload()
+#2 C:\xampp\htdocs\projek\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Save))
+#3 C:\xampp\htdocs\projek\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\projek\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\projek\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-04-20 15:14:09 --> PhpOffice\PhpSpreadsheet\Reader\Xlsx::load(): Argument #1 ($filename) must be of type string, null given, called in C:\xampp\htdocs\projek\app\Controllers\Save.php on line 349
+#0 C:\xampp\htdocs\projek\app\Controllers\Save.php(349): PhpOffice\PhpSpreadsheet\Reader\Xlsx->load(NULL, 0)
+#1 C:\xampp\htdocs\projek\system\CodeIgniter.php(832): App\Controllers\Save->upload()
+#2 C:\xampp\htdocs\projek\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Save))
+#3 C:\xampp\htdocs\projek\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\projek\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\projek\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-04-20 15:52:53 --> PhpOffice\PhpSpreadsheet\Reader\Xlsx::load(): Argument #1 ($filename) must be of type string, null given, called in C:\xampp\htdocs\projek\app\Controllers\Save.php on line 349
+#0 C:\xampp\htdocs\projek\app\Controllers\Save.php(349): PhpOffice\PhpSpreadsheet\Reader\Xlsx->load(NULL)
+#1 C:\xampp\htdocs\projek\system\CodeIgniter.php(832): App\Controllers\Save->upload()
+#2 C:\xampp\htdocs\projek\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Save))
+#3 C:\xampp\htdocs\projek\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\projek\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\projek\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-04-20 15:58:07 --> PhpOffice\PhpSpreadsheet\Reader\Xlsx::load(): Argument #1 ($filename) must be of type string, null given, called in C:\xampp\htdocs\projek\app\Controllers\Save.php on line 351
+#0 C:\xampp\htdocs\projek\app\Controllers\Save.php(351): PhpOffice\PhpSpreadsheet\Reader\Xlsx->load(NULL)
+#1 C:\xampp\htdocs\projek\system\CodeIgniter.php(832): App\Controllers\Save->upload()
+#2 C:\xampp\htdocs\projek\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Save))
+#3 C:\xampp\htdocs\projek\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\projek\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\projek\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-04-20 16:03:56 --> PhpOffice\PhpSpreadsheet\Reader\Xlsx::load(): Argument #1 ($filename) must be of type string, null given, called in C:\xampp\htdocs\projek\app\Controllers\Save.php on line 351
+#0 C:\xampp\htdocs\projek\app\Controllers\Save.php(351): PhpOffice\PhpSpreadsheet\Reader\Xlsx->load(NULL)
+#1 C:\xampp\htdocs\projek\system\CodeIgniter.php(832): App\Controllers\Save->upload()
+#2 C:\xampp\htdocs\projek\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Save))
+#3 C:\xampp\htdocs\projek\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\projek\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\projek\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-04-20 16:14:13 --> include(C:\xampp\htdocs\projek\vendor\composer/../phpoffice/phpspreadsheet/src/PhpSpreadsheet/Reader/Xlsx.php): Failed to open stream: No such file or directory
+#0 C:\xampp\htdocs\projek\vendor\composer\ClassLoader.php(571): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(C:\\xamp...', 'C:\\xampp\\htdocs...', 571)
+#1 C:\xampp\htdocs\projek\vendor\composer\ClassLoader.php(571): include()
+#2 C:\xampp\htdocs\projek\vendor\composer\ClassLoader.php(428): Composer\Autoload\includeFile('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\projek\app\Controllers\Save.php(349): Composer\Autoload\ClassLoader->loadClass('PhpOffice\\PhpSp...')
+#4 C:\xampp\htdocs\projek\system\CodeIgniter.php(832): App\Controllers\Save->upload()
+#5 C:\xampp\htdocs\projek\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Save))
+#6 C:\xampp\htdocs\projek\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\projek\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\projek\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-04-20 16:15:49 --> include(C:\xampp\htdocs\projek\vendor\composer/../phpoffice/phpspreadsheet/src/PhpSpreadsheet/Reader/Xlsx.php): Failed to open stream: No such file or directory
+#0 C:\xampp\htdocs\projek\vendor\composer\ClassLoader.php(571): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(C:\\xamp...', 'C:\\xampp\\htdocs...', 571)
+#1 C:\xampp\htdocs\projek\vendor\composer\ClassLoader.php(571): include()
+#2 C:\xampp\htdocs\projek\vendor\composer\ClassLoader.php(428): Composer\Autoload\includeFile('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\projek\app\Controllers\Save.php(349): Composer\Autoload\ClassLoader->loadClass('PhpOffice\\PhpSp...')
+#4 C:\xampp\htdocs\projek\system\CodeIgniter.php(832): App\Controllers\Save->upload()
+#5 C:\xampp\htdocs\projek\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Save))
+#6 C:\xampp\htdocs\projek\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\projek\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\projek\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-04-20 16:16:32 --> PhpOffice\PhpSpreadsheet\Reader\Xlsx::load(): Argument #1 ($filename) must be of type string, null given, called in C:\xampp\htdocs\projek\app\Controllers\Save.php on line 351
+#0 C:\xampp\htdocs\projek\app\Controllers\Save.php(351): PhpOffice\PhpSpreadsheet\Reader\Xlsx->load(NULL)
+#1 C:\xampp\htdocs\projek\system\CodeIgniter.php(832): App\Controllers\Save->upload()
+#2 C:\xampp\htdocs\projek\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Save))
+#3 C:\xampp\htdocs\projek\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\projek\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\projek\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-04-20 04:17:51 --> require(vendor/autoload.php): Failed to open stream: No such file or directory
+#0 C:\xampp\htdocs\projek\app\Controllers\Save.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require(vendor/...', 'C:\\xampp\\htdocs...', 5)
+#1 C:\xampp\htdocs\projek\app\Controllers\Save.php(5): require()
+#2 C:\xampp\htdocs\projek\system\Router\Router.php(518): include_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\projek\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('save/upload')
+#4 C:\xampp\htdocs\projek\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('save/upload')
+#5 C:\xampp\htdocs\projek\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#6 C:\xampp\htdocs\projek\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\projek\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\projek\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-04-20 04:18:47 --> require(vendor/autoload): Failed to open stream: No such file or directory
+#0 C:\xampp\htdocs\projek\app\Controllers\Save.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require(vendor/...', 'C:\\xampp\\htdocs...', 5)
+#1 C:\xampp\htdocs\projek\app\Controllers\Save.php(5): require()
+#2 C:\xampp\htdocs\projek\system\Router\Router.php(518): include_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\projek\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('save/upload')
+#4 C:\xampp\htdocs\projek\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('save/upload')
+#5 C:\xampp\htdocs\projek\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#6 C:\xampp\htdocs\projek\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\projek\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\projek\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-04-20 16:28:56 --> PhpOffice\PhpSpreadsheet\Reader\Xlsx::load(): Argument #1 ($filename) must be of type string, null given, called in C:\xampp\htdocs\projek\app\Controllers\Save.php on line 353
+#0 C:\xampp\htdocs\projek\app\Controllers\Save.php(353): PhpOffice\PhpSpreadsheet\Reader\Xlsx->load(NULL)
+#1 C:\xampp\htdocs\projek\system\CodeIgniter.php(832): App\Controllers\Save->upload()
+#2 C:\xampp\htdocs\projek\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Save))
+#3 C:\xampp\htdocs\projek\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\projek\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\projek\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-04-20 16:29:54 --> PhpOffice\PhpSpreadsheet\Reader\Xlsx::load(): Argument #1 ($filename) must be of type string, null given, called in C:\xampp\htdocs\projek\app\Controllers\Save.php on line 353
+#0 C:\xampp\htdocs\projek\app\Controllers\Save.php(353): PhpOffice\PhpSpreadsheet\Reader\Xlsx->load(NULL)
+#1 C:\xampp\htdocs\projek\system\CodeIgniter.php(832): App\Controllers\Save->upload()
+#2 C:\xampp\htdocs\projek\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Save))
+#3 C:\xampp\htdocs\projek\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\projek\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\projek\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-04-20 16:38:07 --> PhpOffice\PhpSpreadsheet\Reader\Xlsx::load(): Argument #1 ($filename) must be of type string, null given, called in C:\xampp\htdocs\projek\app\Controllers\Save.php on line 354
+#0 C:\xampp\htdocs\projek\app\Controllers\Save.php(354): PhpOffice\PhpSpreadsheet\Reader\Xlsx->load(NULL)
+#1 C:\xampp\htdocs\projek\system\CodeIgniter.php(832): App\Controllers\Save->upload()
+#2 C:\xampp\htdocs\projek\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Save))
+#3 C:\xampp\htdocs\projek\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\projek\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\projek\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-04-20 16:39:14 --> PhpOffice\PhpSpreadsheet\Reader\Xlsx::load(): Argument #1 ($filename) must be of type string, null given, called in C:\xampp\htdocs\projek\app\Controllers\Save.php on line 354
+#0 C:\xampp\htdocs\projek\app\Controllers\Save.php(354): PhpOffice\PhpSpreadsheet\Reader\Xlsx->load(NULL)
+#1 C:\xampp\htdocs\projek\system\CodeIgniter.php(832): App\Controllers\Save->upload()
+#2 C:\xampp\htdocs\projek\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Save))
+#3 C:\xampp\htdocs\projek\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\projek\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\projek\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}

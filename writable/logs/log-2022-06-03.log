@@ -1,0 +1,8 @@
+CRITICAL - 2022-06-03 15:29:35 --> Undefined property: App\Controllers\Recruitment::$cobadongModel
+#0 C:\xampp\htdocs\projek\app\Controllers\Recruitment.php(151): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 151)
+#1 C:\xampp\htdocs\projek\system\CodeIgniter.php(832): App\Controllers\Recruitment->databaru()
+#2 C:\xampp\htdocs\projek\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recruitment))
+#3 C:\xampp\htdocs\projek\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\projek\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\projek\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}

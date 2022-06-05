@@ -1,0 +1,10 @@
+Aplikasi 		:Visual Studio Code
+Framework	 	:Codeigniter 4
+			 Tailwind CSS
+Bahasa Pemrograman	:HTML
+			 CSS
+			 PHP
+			 Javascript
+Ekstensi		:JQuery	
+			 PHPSPREADSHEET(Buat Excel)
+			 HIHGCHARTS (Buat Grafik)
